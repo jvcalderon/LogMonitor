@@ -1,0 +1,25 @@
+extends layout
+
+block content
+	#loginContent
+		form.form-horizontal(action="", method="POST")
+			fieldset
+				#legend
+					legend.
+						Login	
+				.control-group
+					label.control-label(for="username").
+						Username
+					.controls
+						input#user.input-xlarge(name="user", placeholder="")
+						
+				.control-group
+					label.control-label(for="password").
+						Password
+					.controls
+						input#password.input-xlarge(name="password", placeholder="")
+						
+				.control-group
+					.controls
+						button.btn.btn-success.
+							Login
