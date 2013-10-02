@@ -1,11 +1,17 @@
-var logger = function() {
-	this.__construct();
+/**
+ * @package LogMonitor
+ * @license http://www.opensource.org/licenses/mit-license.php
+ * @author José Vte. Calderón Cabrera <jvcalcab@gmail.com>
+ */
+
+var logger = function(logFile) {
+	this.__construct(logFile);
 	};
 	
 	
-logger.prototype.__construct = function() {		
+logger.prototype.__construct = function(logFile) {		
 	
-	this.logFile = 'log.log';
+	this.logFile = logFile;
 	this.fs = require('fs');
 	this.createLogFile();
 	

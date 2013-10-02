@@ -1,0 +1,24 @@
+{
+"appLogFile": "_HERE_YOUR_APP_LOG_NAME_",
+"mail": {
+	"config": 
+		{
+		"user": "_HERE_YOUR_USER_EMAIL_",
+		"password": "_HERE_YOUR_MAIL_PASSWORD_",
+		"host": "_HERE_YOUR_MAIL_HOST_",
+		"ssl": _SSL_TRUE_OR_FALSE_
+		},
+	"defaultParameters":
+		{
+		"from": "_HERE_THE_MAIL_WHO_SENDS_",
+		"to": "_HERE_THE_RECEIVER_NAME <_HERE_THE_RECEIVER_EMAIL>",
+		"subject": "_HERE_YOUR_SUBJECT_"
+		}
+	},
+"logsToTail": [
+	{ 
+	"name":"_HERE_YOUR_LOG_NAME_", 
+	"logFile":"_HERE_YOUR_LOG_FILE_PATH_", 
+	"dataHandler" : "_HERE_YOUR_HANDLER_FILE_NAME_WITHOUT_JS_EXTENSION_" 
+	}]
+}

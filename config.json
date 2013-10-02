@@ -1,8 +1,0 @@
-{
-"logsToTail": [
-{ "name":"p2d_dev" , "logFile":"/usr/local/zend/apache2/htdocs/power2drive/app/logs/dev.log", "dataHandler" : "symfony2" }
-],
-"users": [ 
-{ "login":"user", "password":"1234" } 
-]
-}
