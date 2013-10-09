@@ -52,7 +52,7 @@ For example, if we would like to observe the logs 'dev' and 'prod' of Symfony2, 
       }]
 </code></pre>
 
-## Launching LogMonitor
+For launch LogMonitor:
 <pre><code>
 $ node app.js
 </code></pre>
