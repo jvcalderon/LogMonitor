@@ -43,8 +43,7 @@ For example, if we would like to observe the logs 'dev' and 'prod' of Symfony2, 
 </code></pre>
 
 For launch LogMonitor:
-<pre><code>
-$ node app.js
+<pre><code>$ node app.js
 </code></pre>
 
 If you need more information you can read: <a href="http://www.frontandback.org/back_end/alertas_logs_tiempo_real">http://www.frontandback.org/back_end/alertas_logs_tiempo_real</a>
