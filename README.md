@@ -25,9 +25,9 @@ It is interesting to look at the parameter 'logsToTail'; through this array we c
       }]
 </code></pre>
 
-<strong>_HERE_YOUR_LOG_NAME_</strong> Is the unique identifier for the log that we will observe.
-<strong>_HERE_YOUR_LOG_FILE_PATH_</strong> The log's path.
-<strong>_HERE_YOUR_HANDLER_FILE_NAME_WITHOUT_JS_EXTENSION_</strong> Is the name of the handler that will handle the process output.
+- <strong>HERE_YOUR_LOG_NAME</strong> Is the unique identifier for the log that we will observe.
+- <strong>HERE_YOUR_LOG_FILE_PATH</strong> The log's path.
+- <strong>HERE_YOUR_HANDLER_FILE_NAME_WITHOUT_JS_EXTENSION</strong> Is the name of the handler that will handle the process output.
 
 For example, if we would like to observe the logs 'dev' and 'prod' of Symfony2, our 'logsToTail' might look like this:
 <pre><code>&quot;logsToTail&quot;: [{   	
