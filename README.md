@@ -2,15 +2,11 @@ LogMonitor
 ==========
 
 A simple software for logs control. This system allows to create actions from rules, for example send an alert by email. With a config file we can set the logs on which we need a permanent listening, and link each log with a "handler".
-
 ## Requirements
-
 - Node.js
 - NPM
 - OS Unix based
-
 ## Install
-
 We need to install the module 'emailjs' for sending emails using the handler example.
 <pre><code>
 $ npm install emailjs
@@ -22,7 +18,6 @@ $ mv config.json_dist config.json
 </code></pre>
 
 ### Setting your logs in config.json
-
 It is interesting to look at the parameter 'logsToTail'; through this array we can create many 'tail -f' processes as we need.
 <pre><code>
 &quot;logsToTail&quot;: [{
