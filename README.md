@@ -6,6 +6,7 @@ A simple software for logs control. This system allows to create actions from ru
 - Node.js
 - NPM
 - OS Unix based
+
 ## Install
 We need to install the module 'emailjs' for sending emails using the handler example.
 <pre><code>
