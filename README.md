@@ -1,9 +1,7 @@
 LogMonitor
 ==========
 
-A simple software for logs control. This system allows to create actions from rules, for example send an alert by email.
-
-With a config file we can set the logs on which we need a permanent listening, and link each log with a "handler".
+A simple software for logs control. This system allows to create actions from rules, for example send an alert by email. With a config file we can set the logs on which we need a permanent listening, and link each log with a "handler".
 
 ## Requirements
 
