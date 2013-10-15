@@ -23,7 +23,7 @@ symfony2.prototype.handle = function(data) {
 	
 	if(data.match("CRITICAL"))
 		{
-		this.logger.error('['+this.name+'] '.data);
+		this.logger.error('['+this.name+'] '+data);
 		this.emailjs.send(data);
 		}
 	
